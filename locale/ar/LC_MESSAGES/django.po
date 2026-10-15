@@ -1,0 +1,1172 @@
+# Arabic translations for Skillivity.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Skillivity\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-16 00:44+0300\n"
+"PO-Revision-Date: 2026-10-13 20:18+0300\n"
+"Last-Translator: Sara Alshammari\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+
+# Profile
+#: accounts/forms.py:41
+msgid "Profile picture"
+msgstr "الصورة الشخصية"
+
+#: accounts/forms.py:42 accounts/models.py:9
+msgid "About you"
+msgstr "نبذة عنك"
+
+#: accounts/forms.py:43 accounts/models.py:12 templates/community/learn.html:1
+#: templates/community/person.html:1
+msgid "I want to learn"
+msgstr "أرغب في تعلّم"
+
+#: accounts/forms.py:48
+msgid "JPG, PNG or WebP. Maximum size: 2 MB."
+msgstr "صورة بصيغة JPG أو PNG أو WebP، وبحجم أقصى 2 ميجابايت."
+
+#: accounts/forms.py:63
+msgid "Tell others about your skills and what you would like to build."
+msgstr "عرّف الآخرين بمهاراتك وما ترغب في إنجازه."
+
+#: accounts/forms.py:80
+msgid "The image must be 2 MB or smaller."
+msgstr "يجب ألا يتجاوز حجم الصورة 2 ميجابايت."
+
+#: accounts/forms.py:91
+msgid "Upload a JPG, PNG or WebP image."
+msgstr "ارفع صورة بصيغة JPG أو PNG أو WebP."
+
+#: accounts/forms.py:96
+msgid "Image dimensions must not exceed 4096 × 4096 pixels."
+msgstr "يجب ألا تتجاوز أبعاد الصورة 4096 × 4096 بكسل."
+
+#: accounts/forms.py:104
+#| msgid "The image must be 2 MB or smaller."
+msgid "The CV must be 5 MB or smaller."
+msgstr "يجب ألا يتجاوز حجم السيرة الذاتية ٥ ميجابايت."
+
+#: accounts/forms.py:106
+msgid "Upload a PDF file."
+msgstr "ارفعي ملفًا بصيغة PDF."
+
+#: accounts/models.py:10
+msgid "CV (PDF)"
+msgstr "السيرة الذاتية (PDF)"
+
+#: accounts/models.py:11
+#| msgid "Portfolio link (optional)"
+msgid "Portfolio link"
+msgstr "رابط معرض الأعمال"
+
+#: accounts/views.py:107
+msgid "Your profile has been updated."
+msgstr "تم تحديث ملفك الشخصي."
+
+#: community/forms.py:38
+#| msgid "Choose what you can offer in return."
+msgid "Choose a skill to offer in exchange."
+msgstr "اختاري المهارة التي تقدمينها بالمقابل."
+
+#: community/models.py:9
+msgid "Hackathon"
+msgstr "هاكاثون"
+
+#: community/models.py:10
+msgid "Challenge"
+msgstr "تحدّي"
+
+#: community/models.py:11
+#| msgid "Find your next collaboration"
+msgid "Freelance collaboration"
+msgstr "تعاون فريلانـس"
+
+#: community/models.py:13
+msgid "Project title"
+msgstr "عنوان المشروع"
+
+#: community/models.py:14 templates/community/explore.html:1
+msgid "Category"
+msgstr "التصنيف"
+
+#: community/models.py:15
+#| msgid "Project pages"
+msgid "Project description"
+msgstr "وصف المشروع"
+
+#: community/models.py:16
+#| msgid "Your contribution"
+msgid "Your contribution as leader"
+msgstr "مساهمتك بصفتك قائد الفريق"
+
+#: community/models.py:23
+msgid "Role title"
+msgstr "مسمّى الدور"
+
+#: community/models.py:24
+msgid "Role description"
+msgstr "وصف الدور"
+
+#: community/models.py:25
+msgid "Number of seats"
+msgstr "عدد الأعضاء المطلوبين"
+
+#: community/models.py:26
+msgid "Required skills"
+msgstr "المهارات المطلوبة"
+
+#: community/models.py:35 community/models.py:69
+#| msgid "Exchange reviews"
+msgid "Under review"
+msgstr "قيد المراجعة"
+
+#: community/models.py:36 community/models.py:70
+msgid "Accepted"
+msgstr "مقبول"
+
+#: community/models.py:37 community/models.py:71
+msgid "Rejected"
+msgstr "مرفوض"
+
+#: community/models.py:38
+msgid "Withdrawn"
+msgstr "تم سحبه"
+
+#: community/models.py:41
+#| msgid "How would you like to collaborate?"
+msgid "Why would you like to join?"
+msgstr "لماذا ترغب في الانضمام؟"
+
+#: community/models.py:42
+msgid "Share my CV with this team leader"
+msgstr "أوافق على مشاركة سيرتي الذاتية مع قائد هذا الفريق"
+
+#: community/models.py:57
+msgid "Intermediate"
+msgstr "متوسط"
+
+#: community/models.py:58
+msgid "Advanced"
+msgstr "متقدم"
+
+#: community/models.py:61
+#| msgid "Your service"
+msgid "Your level"
+msgstr "مستواك"
+
+#: community/models.py:62
+#| msgid "What did you deliver?"
+msgid "What can you help with?"
+msgstr "ما الذي يمكنك المساعدة فيه؟"
+
+#: community/models.py:66
+#| msgid "Incoming requests"
+msgid "Learning request"
+msgstr "طلب تعلّم"
+
+#: community/models.py:67
+#| msgid "My exchanges"
+msgid "Skill exchange"
+msgstr "تبادل مهارات"
+
+#: community/models.py:72
+msgid "Cancelled"
+msgstr "ملغي"
+
+#: community/models.py:76
+#| msgid "Service you offer in return"
+msgid "Skill I offer in return"
+msgstr "المهارة التي أقدمها بالمقابل"
+
+#: community/models.py:77
+#| msgid "Requested by"
+msgid "Request type"
+msgstr "نوع الطلب"
+
+#: community/models.py:78
+#| msgid "Introduce your service and explain your proposal."
+msgid "Introduce yourself and your learning goal"
+msgstr "عرّف بنفسك وبما ترغب في تعلّمه"
+
+#: community/models.py:96 support/models.py:37 templates/community/chat.html:1
+msgid "Message"
+msgstr "الرسالة"
+
+#: community/views.py:44
+#| msgid "Your service has been published."
+msgid "Your team is now published."
+msgstr "نُشر فريقك بنجاح."
+
+#: community/views.py:60
+#| msgid "You have already applied to this role."
+msgid "You already applied or joined this team."
+msgstr "سبق أن قدمت أو انضممت إلى هذا الفريق."
+
+#: community/views.py:62 community/views.py:70 community/views.py:100
+msgid "This role is no longer available."
+msgstr "لم يعد هذا الدور متاحًا."
+
+#: community/views.py:68
+#| msgid "Recruitment will close."
+msgid "Recruitment has closed."
+msgstr "أُغلق استقبال الطلبات."
+
+#: community/views.py:73
+msgid "Upload a CV in your profile before sharing it."
+msgstr "ارفع سيرتك الذاتية في ملفك الشخصي قبل مشاركتها."
+
+#: community/views.py:76
+#| msgid "You have already applied to this role."
+msgid "You already applied to this role."
+msgstr "سبق أن قدمت على هذا الدور."
+
+#: community/views.py:78
+msgid "Application sent. Track it in My applications."
+msgstr "أُرسل طلبك. تابع حالته من صفحة تقديماتي."
+
+#: community/views.py:79 templates/community/team_detail.html:1
+#| msgid "Apply to role"
+msgid "Apply to join"
+msgstr "قدّم للانضمام"
+
+#: community/views.py:79
+msgid "Send application"
+msgstr "إرسال الطلب"
+
+#: community/views.py:98 community/views.py:111
+#| msgid "This submission has already been reviewed."
+msgid "This application has already been processed."
+msgstr "سبق اتخاذ قرار بشأن هذا الطلب."
+
+#: community/views.py:101
+#| msgid "This service is already inactive."
+msgid "This person is already in the team."
+msgstr "هذا الشخص عضو في الفريق بالفعل."
+
+#: community/views.py:112
+#| msgid "Exchange accepted successfully."
+msgid "Saved successfully."
+msgstr "حُفظت التغييرات بنجاح."
+
+#: community/views.py:170
+#| msgid "You have already applied to this role."
+msgid "You already added this skill."
+msgstr "سبق أن أضفت هذه المهارة."
+
+#: community/views.py:182
+#| msgid "An active request already exists for these offers."
+msgid "An active request already exists for this skill."
+msgstr "لديك طلب نشط لهذه المهارة بالفعل."
+
+#: community/views.py:184
+#| msgid "Your service has been published."
+msgid "Your learning request has been sent."
+msgstr "أُرسل طلب التعلّم."
+
+#: community/views.py:185 templates/community/person.html:1
+msgid "Connect and learn"
+msgstr "تواصل وتعلّم"
+
+#: community/views.py:185
+msgid "Send request"
+msgstr "إرسال الطلب"
+
+#: community/views.py:231
+msgid "Invalid message. Please refresh."
+msgstr "تعذّر إرسال الرسالة. حدّث الصفحة."
+
+#: community/views.py:232
+#| msgid "Write a message of at least 20 characters."
+msgid "Write a message of 1 to 2000 characters."
+msgstr "اكتب رسالة بين حرف واحد و٢٠٠٠ حرف."
+
+#: community/views.py:237
+#| msgid "Please reopen the form."
+msgid "Please retry your message."
+msgstr "حاول إرسال الرسالة مجددًا."
+
+#: support/forms.py:20
+msgid "A short title for your message"
+msgstr "عنوان مختصر لرسالتك"
+
+#: support/forms.py:27
+msgid "Tell us what happened or share your suggestion."
+msgstr "اشرح ما حدث أو شاركنا اقتراحك."
+
+#: support/forms.py:35
+msgid ""
+"For technical issues, mention the page and what you were trying to do. Do "
+"not include passwords."
+msgstr ""
+"للمشكلات التقنية، اذكر الصفحة وما كنت تحاول فعله. لا تضع كلمات المرور."
+
+#: support/forms.py:45
+msgid "Write a subject of at least 5 characters."
+msgstr "اكتب عنوانًا لا يقل عن 5 أحرف."
+
+#: support/forms.py:55
+msgid "Write a message of at least 20 characters."
+msgstr "اكتب رسالة لا تقل عن 20 حرفًا."
+
+#: support/models.py:8
+msgid "Technical issue"
+msgstr "مشكلة تقنية"
+
+#: support/models.py:9
+msgid "Suggestion"
+msgstr "اقتراح"
+
+#: support/models.py:10
+msgid "General feedback"
+msgstr "ملاحظة عامة"
+
+#: support/models.py:13
+msgid "New"
+msgstr "جديدة"
+
+#: support/models.py:14
+msgid "In progress"
+msgstr "قيد المعالجة"
+
+#: support/models.py:15 templates/community/explore.html:1
+#: templates/community/team_card.html:1 templates/community/team_detail.html:1
+msgid "Closed"
+msgstr "مغلقة"
+
+#: support/models.py:27
+msgid "Message type"
+msgstr "نوع الرسالة"
+
+#: support/models.py:32
+msgid "Subject"
+msgstr "العنوان"
+
+#: support/models.py:44 templates/community/explore.html:1
+msgid "Status"
+msgstr "الحالة"
+
+#: support/models.py:52
+msgid "Feedback"
+msgstr "ملاحظة"
+
+#: support/models.py:53
+msgid "Feedback messages"
+msgstr "رسائل التواصل"
+
+#: support/views.py:23
+msgid ""
+"Your message has been received. Thank you for helping us improve Skillivity."
+msgstr "وصلتنا رسالتك. شكرًا لمساهمتك في تحسين Skillivity."
+
+# Authentication
+#: templates/accounts/auth_panel.html:13 templates/accounts/auth_panel.html:65
+#: templates/errors/403.html:18 templates/errors/500.html:18
+#: templates/errors/base.html:42 templates/errors/csrf.html:18
+msgid "Back to home"
+msgstr "العودة للرئيسية"
+
+#: templates/accounts/auth_panel.html:18
+msgid "Your next collaboration awaits"
+msgstr "تعاونك القادم بانتظارك"
+
+#: templates/accounts/auth_panel.html:22
+msgid "Welcome back"
+msgstr "أهلًا بعودتك"
+
+#: templates/accounts/auth_panel.html:26
+msgid "Log in to continue your exchanges and projects."
+msgstr "سجّل دخولك لمتابعة فرقك ورحلة تعلّمك."
+
+#: templates/accounts/auth_panel.html:43
+#: templates/accounts/auth_panel.html:106
+#: templates/accounts/auth_panel.html:156 templates/accounts/login.html:4
+#: templates/base.html:3 templates/errors/403.html:22
+#: templates/errors/csrf.html:22
+msgid "Log in"
+msgstr "تسجيل الدخول"
+
+#: templates/accounts/auth_panel.html:48
+#| msgid "New to Skillivity?"
+msgid "New to Sila?"
+msgstr "جديد في صِلة؟"
+
+#: templates/accounts/auth_panel.html:54 templates/accounts/auth_panel.html:95
+#: templates/accounts/signup.html:4
+msgid "Create account"
+msgstr "إنشاء حساب"
+
+#: templates/accounts/auth_panel.html:70
+msgid "Start with what you do best"
+msgstr "ابدأ بما تتقنه"
+
+#: templates/accounts/auth_panel.html:74
+msgid "Create your account"
+msgstr "أنشئ حسابك"
+
+#: templates/accounts/auth_panel.html:78
+msgid "Find people to exchange services with and build projects together."
+msgstr "اكتشف أشخاصًا تتعلّم معهم وتكوّن فريقك."
+
+#: templates/accounts/auth_panel.html:100
+msgid "Already have an account?"
+msgstr "لديك حساب بالفعل؟"
+
+#: templates/accounts/auth_panel.html:120
+msgid "Your skills belong in good company."
+msgstr "مهاراتك تستحق الرفقة المناسبة."
+
+#: templates/accounts/auth_panel.html:124
+msgid ""
+"Exchange a service, meet a teammate, and give your next idea a place to "
+"start."
+msgstr "شارك معرفتك، تعرّف على فريقك، وامنح فكرتك القادمة بداية."
+
+#: templates/accounts/auth_panel.html:132 templates/base.html:3
+#| msgid "Join Skillivity"
+msgid "Join Sila"
+msgstr "انضم إلى صِلة"
+
+#: templates/accounts/auth_panel.html:144
+msgid "Bring your skills. Find your people."
+msgstr "شارك مهاراتك. واكتشف رفاقك."
+
+#: templates/accounts/auth_panel.html:148
+msgid ""
+"A designer, a developer, a fresh perspective. Your next collaboration starts"
+" with a connection."
+msgstr "مصمم، أو مطوّر، أو صاحب رؤية مختلفة. تعاونك القادم يبدأ بالتعارف."
+
+#: templates/accounts/my_stats.html:4 templates/accounts/my_stats.html:11
+msgid "My stats"
+msgstr "إحصائياتي"
+
+#: templates/accounts/my_stats.html:10 templates/community/my_teams.html:1
+msgid "Your workspace"
+msgstr "مساحة عملك"
+
+#: templates/accounts/my_stats.html:12
+msgid "Your completed exchanges and the feedback you have received."
+msgstr "تبادلاتك المكتملة والملاحظات التي تلقيتها."
+
+#: templates/accounts/my_stats.html:19
+msgid "My exchanges"
+msgstr "تبادلاتي"
+
+#: templates/accounts/my_stats.html:25
+msgid "Completed exchanges"
+msgstr "التبادلات المكتملة"
+
+#: templates/accounts/my_stats.html:28
+msgid "Confirmed by both participants"
+msgstr "أكّد إكمالها الطرفان"
+
+#: templates/accounts/my_stats.html:33
+msgid "Average rating"
+msgstr "متوسط التقييم"
+
+#: templates/accounts/my_stats.html:46
+msgid "Based on the reviews you received"
+msgstr "بناءً على التقييمات التي تلقيتها"
+
+#: templates/accounts/my_stats.html:48
+msgid "No ratings yet."
+msgstr "لا توجد تقييمات بعد."
+
+#: templates/accounts/my_stats.html:54
+msgid "Reviews received"
+msgstr "التقييمات المستلمة"
+
+#: templates/accounts/my_stats.html:57
+msgid "Feedback from completed collaborations"
+msgstr "ملاحظات من تعاونات مكتملة"
+
+#: templates/accounts/my_stats.html:65
+msgid "Available services by skill"
+msgstr "الخدمات المتاحة حسب المهارة"
+
+#: templates/accounts/my_stats.html:69
+msgid "My services"
+msgstr "خدماتي"
+
+#: templates/accounts/my_stats.html:78
+msgid "Available services"
+msgstr "الخدمات المتاحة"
+
+#: templates/accounts/my_stats.html:85
+msgid "You have no available services yet."
+msgstr "لا توجد لديك خدمات متاحة حاليًا."
+
+#: templates/accounts/my_stats.html:88
+msgid "Offer a service"
+msgstr "أضف خدمة"
+
+#: templates/accounts/profile.html:2
+#| msgid "Your workspace"
+msgid "Your space"
+msgstr "مساحتك"
+
+#: templates/accounts/profile.html:2 templates/base.html:3
+msgid "My profile"
+msgstr "ملفي الشخصي"
+
+#: templates/accounts/profile.html:2
+#| msgid ""
+#| "Tell others about your skills and what you would like to build."
+msgid "Let people know who you are and what you would like to learn."
+msgstr "عرّف الآخرين بنفسك وبما تود تعلّمه."
+
+#: templates/accounts/profile.html:2
+msgid "Manage teaching skills"
+msgstr "إدارة مهاراتي"
+
+#: templates/accounts/profile.html:3
+msgid ""
+"Your CV is private. Only leaders you choose to share it with can download "
+"it."
+msgstr ""
+"سيرتك الذاتية خاصة. يمكن فقط لقادة الفرق الذين توافق على مشاركتها معهم "
+"تنزيلها."
+
+#: templates/accounts/profile.html:3
+msgid "Save changes"
+msgstr "حفظ التغييرات"
+
+#: templates/base.html:2 templates/base.html:3 templates/base.html:4
+#: templates/community/home.html:2
+msgid "Sila"
+msgstr "صِلة"
+
+# Navigation and shared layout
+#: templates/base.html:3
+msgid "Skip to content"
+msgstr "انتقل إلى المحتوى"
+
+#: templates/base.html:3 templates/community/explore.html:1
+#| msgid "Build your team"
+msgid "Find your team"
+msgstr "اكتشف فريقك"
+
+#: templates/base.html:3 templates/community/home.html:3
+#: templates/community/learn.html:1
+msgid "Learn & teach"
+msgstr "تعلّم وعلّم"
+
+#: templates/base.html:3
+msgid "Dark mode"
+msgstr "الوضع الداكن"
+
+#: templates/base.html:3 templates/community/my_teams.html:1
+msgid "My teams"
+msgstr "فرقي"
+
+#: templates/base.html:3 templates/community/applications.html:1
+#| msgid "View applications"
+msgid "My applications"
+msgstr "تقديماتي"
+
+#: templates/base.html:3 templates/community/teaching.html:1
+msgid "My teaching skills"
+msgstr "مهارات أعلّمها"
+
+#: templates/base.html:3 templates/community/learn.html:1
+#: templates/community/requests.html:1
+#| msgid "Incoming requests"
+msgid "Learning requests"
+msgstr "طلبات التعلّم"
+
+#: templates/base.html:3 templates/community/inbox.html:1
+#| msgid "Message"
+msgid "Messages"
+msgstr "المحادثات"
+
+#: templates/base.html:3
+msgid "Log out"
+msgstr "تسجيل الخروج"
+
+#: templates/base.html:4
+msgid "Different skills. Shared possibilities."
+msgstr "مهارات متنوعة، وإمكانات نصنعها معًا."
+
+# Contact and feedback
+#: templates/base.html:4 templates/support/contact.html:1
+msgid "Contact us"
+msgstr "تواصل معنا"
+
+#: templates/community/applicants.html:1
+#: templates/community/team_detail.html:1
+#| msgid "Applied on"
+msgid "Applicants"
+msgstr "المتقدمون"
+
+# Authentication
+#: templates/community/applicants.html:1
+#| msgid "Back to home"
+msgid "Back to team"
+msgstr "العودة إلى الفريق"
+
+#: templates/community/applicants.html:1 templates/community/learn.html:1
+#| msgid "View roles"
+msgid "View profile"
+msgstr "عرض الملف الشخصي"
+
+#: templates/community/applicants.html:1
+msgid "Download CV"
+msgstr "تنزيل السيرة الذاتية"
+
+#: templates/community/applicants.html:1
+msgid "Private leader notes"
+msgstr "ملاحظات خاصة بالقائد"
+
+#: templates/community/applicants.html:1
+#| msgid "Save changes"
+msgid "Save note"
+msgstr "حفظ الملاحظة"
+
+#: templates/community/applicants.html:1 templates/community/requests.html:1
+#| msgid "Accepted"
+msgid "Accept"
+msgstr "قبول"
+
+#: templates/community/applicants.html:1 templates/community/requests.html:1
+#| msgid "Rejected"
+msgid "Reject"
+msgstr "رفض"
+
+#: templates/community/applicants.html:1
+#| msgid "No ratings yet."
+msgid "No applications yet."
+msgstr "لا يوجد متقدمون حتى الآن."
+
+#: templates/community/applications.html:1
+msgid "Your next step"
+msgstr "خطوتك القادمة"
+
+#: templates/community/applications.html:1
+#| msgid "Explore services"
+msgid "Explore teams"
+msgstr "استكشف الفرق"
+
+#: templates/community/applications.html:1
+msgid "You are in! Meet your team in the conversation."
+msgstr "تم قبولك! تعرّف على فريقك في المحادثة."
+
+#: templates/community/applications.html:1 templates/community/requests.html:1
+msgid "Open conversation"
+msgstr "فتح المحادثة"
+
+#: templates/community/applications.html:1
+msgid "Withdraw application"
+msgstr "سحب الطلب"
+
+#: templates/community/applications.html:1
+#| msgid "Pending applications will be rejected."
+msgid "Your applications will appear here."
+msgstr "ستظهر تقديماتك هنا."
+
+#: templates/community/chat.html:1 templates/community/inbox.html:1
+#: templates/community/team_detail.html:1
+#| msgid "Team applications"
+msgid "Team conversation"
+msgstr "محادثة الفريق"
+
+#: templates/community/chat.html:1 templates/community/inbox.html:1
+#| msgid "Main navigation"
+msgid "Learning conversation"
+msgstr "محادثة التعلّم"
+
+#: templates/community/chat.html:1
+#| msgid "Send message"
+msgid "All messages"
+msgstr "جميع المحادثات"
+
+#: templates/community/chat.html:1
+msgid "People in this conversation"
+msgstr "المشاركون في المحادثة"
+
+#: templates/community/chat.html:1
+msgid "Start a conversation…"
+msgstr "ابدأ الحديث…"
+
+#: templates/community/chat.html:1 templates/support/contact.html:1
+msgid "Send"
+msgstr "إرسال"
+
+# Homepage
+#: templates/community/explore.html:1
+#| msgid "Build Together"
+msgid "Build together"
+msgstr "نبني معًا"
+
+#: templates/community/explore.html:1
+msgid "An idea, a challenge, or your next hackathon. Find where you belong."
+msgstr "فكرة، تحدّي، أو هاكاثون قادم. اكتشف الفريق المناسب لك."
+
+#: templates/community/explore.html:1 templates/community/home.html:3
+#: templates/community/home.html:4 templates/community/my_teams.html:1
+#: templates/community/team_form.html:1
+#| msgid "Create task"
+msgid "Create a team"
+msgstr "أنشئ فريقًا"
+
+#: templates/community/explore.html:1 templates/community/learn.html:1
+msgid "Search"
+msgstr "بحث"
+
+#: templates/community/explore.html:1
+#| msgid "Project owner"
+msgid "Project or role"
+msgstr "ابحث باسم المشروع أو الدور"
+
+#: templates/community/explore.html:1
+#| msgid "All services"
+msgid "All categories"
+msgstr "جميع الفئات"
+
+#: templates/community/explore.html:1 templates/community/learn.html:1
+msgid "Skill"
+msgstr "المهارة"
+
+#: templates/community/explore.html:1 templates/community/learn.html:1
+msgid "All skills"
+msgstr "جميع المهارات"
+
+#: templates/community/explore.html:1 templates/community/team_card.html:1
+#: templates/community/team_detail.html:1
+#| msgid "Recruiting members"
+msgid "Recruiting"
+msgstr "يستقبل أعضاء"
+
+#: templates/community/explore.html:1
+msgid "All"
+msgstr "الكل"
+
+#: templates/community/explore.html:1 templates/community/learn.html:1
+msgid "Reset"
+msgstr "إعادة ضبط"
+
+#: templates/community/explore.html:1
+msgid "Results"
+msgstr "النتائج"
+
+#: templates/community/explore.html:1
+#| msgid "No services match your search."
+msgid "No teams match your search. Try different filters."
+msgstr "لا توجد فرق تطابق بحثك. جرّب خيارات أخرى."
+
+#: templates/community/form.html:1
+#| msgid "Find your connection"
+msgid "A new connection"
+msgstr "بداية صِلة"
+
+#: templates/community/form.html:1
+msgid "Back"
+msgstr "العودة"
+
+#: templates/community/home.html:2
+msgid "Good things start with a connection"
+msgstr "كل بداية جميلة، تبدأ بصِلة"
+
+#: templates/community/home.html:2
+msgid "Your next idea."
+msgstr "فكرتك القادمة."
+
+#: templates/community/home.html:2
+#| msgid "the right people."
+msgid "The right people."
+msgstr "والأشخاص المناسبون."
+
+#: templates/community/home.html:2
+msgid ""
+"Find the team that complements you, or a person to learn with. Your skills "
+"are the beginning of something bigger."
+msgstr ""
+"اكتشف فريقًا يكمل مهاراتك، أو شخصًا تتعلّم معه. ما تعرفه اليوم قد يكون بداية"
+" لشيء أكبر."
+
+#: templates/community/home.html:2
+msgid "Find your connection"
+msgstr "ابدأ صِلتك"
+
+#: templates/community/home.html:2
+msgid "Connect"
+msgstr "تواصل"
+
+#: templates/community/home.html:2
+msgid "Learn"
+msgstr "تعلّم"
+
+#: templates/community/home.html:2
+msgid "Build"
+msgstr "ابنِ"
+
+#: templates/community/home.html:2
+msgid "Better, together."
+msgstr "معًا، نكمل بعض."
+
+#: templates/community/home.html:2
+#| msgid "Backend developer"
+msgid "Developer"
+msgstr "مطوّر"
+
+#: templates/community/home.html:2
+msgid "Designer"
+msgstr "مصمّم"
+
+#: templates/community/home.html:2
+#| msgid "Different skills. Shared possibilities."
+msgid "Different skills. One possibility."
+msgstr "مهارات مختلفة. وفكرة تجمعنا."
+
+#: templates/community/home.html:3
+#| msgid "How would you like to collaborate?"
+msgid "Where would you like to start?"
+msgstr "من أين تبدأ صِلتك؟"
+
+#: templates/community/home.html:3
+msgid "Two paths. Endless possibilities."
+msgstr "مساران، وفرص لا تنتهي."
+
+#: templates/community/home.html:3
+msgid "Build your team"
+msgstr "كوّن فريقك"
+
+#: templates/community/home.html:3
+msgid ""
+"Bring your idea and find its people. Teams for hackathons, challenges, and "
+"freelance collaboration."
+msgstr ""
+"شارك فكرتك واجمع فريقك. للهاكاثونات والتحديات ومشاريع الفريلانـس التعاونية."
+
+#: templates/community/home.html:3
+msgid "Find a team"
+msgstr "ابحث عن فريق"
+
+#: templates/community/home.html:3
+msgid ""
+"Share what you know and discover what you could learn. No perfect match "
+"required, just curiosity."
+msgstr ""
+"شارك ما تعرفه واكتشف ما يمكنك تعلّمه. ليس شرطًا أن تتبادلوا المهارات؛ يكفي "
+"الشغف بالمعرفة."
+
+#: templates/community/home.html:3 templates/community/requests.html:1
+#| msgid "Explore projects"
+msgid "Explore people"
+msgstr "اكتشف الأشخاص"
+
+#: templates/community/home.html:3 templates/community/learn.html:1
+msgid "Share a skill"
+msgstr "شارك مهارة"
+
+#: templates/community/home.html:4
+msgid "Ideas looking for their people"
+msgstr "أفكار تنتظر أصحابها"
+
+#: templates/community/home.html:4
+#| msgid "Your next project can start here."
+msgid "Your next team could be here"
+msgstr "قد تجد فريقك القادم هنا"
+
+#: templates/community/home.html:4
+#| msgid "Explore services"
+msgid "Explore all teams"
+msgstr "استكشف جميع الفرق"
+
+#: templates/community/home.html:4
+msgid "Be the first connection."
+msgstr "كن أول صِلة."
+
+#: templates/community/home.html:4
+msgid "Publish your idea and invite the right people to join."
+msgstr "انشر فكرتك وافتح الباب للأشخاص المناسبين."
+
+#: templates/community/inbox.html:1
+msgid "Keep the conversation going"
+msgstr "هنا تستمر الصِلة"
+
+#: templates/community/inbox.html:1
+msgid ""
+"Conversations open when a team application or learning request is accepted."
+msgstr "تبدأ المحادثات بعد قبول طلب الانضمام للفريق أو طلب التعلّم."
+
+#: templates/community/learn.html:1
+msgid "Knowledge travels between people"
+msgstr "المعرفة تكبر بالمشاركة"
+
+#: templates/community/learn.html:1
+msgid ""
+"Find someone to learn from. Share a skill if you like; a mutual match is "
+"optional."
+msgstr "تعلّم من الآخرين وشارك مهاراتك إن أحببت. التبادل ليس شرطًا للتواصل."
+
+#: templates/community/learn.html:1
+msgid "Set your learning interests"
+msgstr "حدّد اهتماماتك التعليمية"
+
+#: templates/community/learn.html:1
+#| msgid "Search by project, role or skill"
+msgid "Search people or skills"
+msgstr "ابحث عن شخص أو مهارة"
+
+#: templates/community/learn.html:1
+msgid "Matches your interests"
+msgstr "يناسب اهتماماتك"
+
+#: templates/community/learn.html:1 templates/community/person.html:1
+#| msgid "I can offer"
+msgid "I can teach"
+msgstr "أقدر أعلّم"
+
+#: templates/community/learn.html:1
+msgid "Open to ideas"
+msgstr "منفتح على أفكار جديدة"
+
+#: templates/community/learn.html:1
+msgid "No people match yet. Try another skill or be the first to share yours."
+msgstr "لم نجد نتائج بعد. جرّب مهارة أخرى أو كن أول من يشارك مهارته."
+
+#: templates/community/my_teams.html:1
+#| msgid "Share an idea and the roles your team needs."
+msgid "The teams you lead and the teams you have joined."
+msgstr "الفرق التي تقودها والفرق التي انضممت إليها."
+
+#: templates/community/my_teams.html:1
+msgid "Your teams will appear here."
+msgstr "ستظهر فرقك هنا."
+
+#: templates/community/pagination.html:1
+msgid "Previous"
+msgstr "السابق"
+
+#: templates/community/pagination.html:1
+msgid "Next"
+msgstr "التالي"
+
+#: templates/community/person.html:1
+#| msgid "Responsibilities"
+msgid "A person. Many possibilities."
+msgstr "شخص واحد، وإمكانات كثيرة."
+
+#: templates/community/person.html:1
+#| msgid "About you"
+msgid "About"
+msgstr "نبذة"
+
+#: templates/community/person.html:1
+#| msgid "View portfolio (new tab)"
+msgid "View portfolio"
+msgstr "معرض الأعمال"
+
+#: templates/community/person.html:1
+msgid "Still exploring."
+msgstr "ما زلت أستكشف."
+
+#: templates/community/person.html:1
+#| msgid "No team roles have been added yet."
+msgid "No teaching skills added yet."
+msgstr "لم تُضف مهارات للتعليم بعد."
+
+#: templates/community/requests.html:1
+#| msgid "Find your connection"
+msgid "Make a connection"
+msgstr "ابدأ صِلة جديدة"
+
+#: templates/community/requests.html:1
+#| msgid "My exchanges"
+msgid "In exchange for"
+msgstr "مقابل تعلّم"
+
+#: templates/community/requests.html:1
+msgid "Cancel request"
+msgstr "إلغاء الطلب"
+
+#: templates/community/requests.html:1
+msgid "Your learning requests will appear here."
+msgstr "ستظهر طلبات التعلّم هنا."
+
+#: templates/community/teaching.html:1
+#| msgid "Start with what you do best"
+msgid "Start with what you know"
+msgstr "ابدأ بما تعرفه"
+
+#: templates/community/teaching.html:1
+msgid "Edit learning interests"
+msgstr "تعديل اهتمامات التعلّم"
+
+#: templates/community/teaching.html:1
+#| msgid "All skills"
+msgid "Add a skill"
+msgstr "أضف مهارة"
+
+#: templates/community/teaching.html:1
+#| msgid "All skills"
+msgid "Add skill"
+msgstr "إضافة المهارة"
+
+#: templates/community/teaching.html:1
+#| msgid "We would like to hear from you."
+msgid "What could someone learn from you?"
+msgstr "ما الذي يمكن أن يتعلّمه الآخرون منك؟"
+
+#: templates/community/team_card.html:1
+#| msgid "Discover what people can do"
+msgid "Discover team"
+msgstr "اكتشف الفريق"
+
+#: templates/community/team_detail.html:1
+#| msgid "All statuses"
+msgid "All teams"
+msgstr "جميع الفرق"
+
+#: templates/community/team_detail.html:1
+#| msgid "Offered by"
+msgid "Led by"
+msgstr "بقيادة"
+
+#: templates/community/team_detail.html:1
+msgid "Close recruitment"
+msgstr "إغلاق استقبال الطلبات"
+
+#: templates/community/team_detail.html:1
+msgid "About the project"
+msgstr "نبذة عن المشروع"
+
+#: templates/community/team_detail.html:1
+#| msgid "Your contribution"
+msgid "Leader contribution"
+msgstr "مساهمة القائد"
+
+#: templates/community/team_detail.html:1
+#| msgid "This is a collaborative project without payment."
+msgid "This team collaborates without payment."
+msgstr "هذا الفريق للتعاون بدون مقابل مادي."
+
+#: templates/community/team_detail.html:1
+#| msgid "Find your connection"
+msgid "Find your role"
+msgstr "اختر دورك"
+
+#: templates/community/team_detail.html:1
+#| msgid "Available"
+msgid "Seats available"
+msgstr "مقاعد متاحة"
+
+#: templates/community/team_detail.html:1
+msgid "The team"
+msgstr "أعضاء الفريق"
+
+#: templates/community/team_detail.html:1
+msgid "Leader"
+msgstr "القائد"
+
+#: templates/community/team_form.html:1
+#| msgid "Bring your skills. Find your people."
+msgid "Bring your idea to life"
+msgstr "امنح فكرتك بداية"
+
+#: templates/community/team_form.html:1
+msgid "Tell your story and define the people you need."
+msgstr "عرّف بفكرتك وحدّد الأشخاص الذين تحتاج إليهم."
+
+#: templates/community/team_form.html:1
+msgid "The idea"
+msgstr "الفكرة"
+
+#: templates/community/team_form.html:1
+#| msgid "the right people."
+msgid "The people"
+msgstr "الأشخاص"
+
+#: templates/community/team_form.html:1
+msgid "Add role"
+msgstr "إضافة دور"
+
+#: templates/community/team_form.html:1
+#| msgid "Team roles"
+msgid "Team role"
+msgstr "دور في الفريق"
+
+#: templates/community/team_form.html:1
+msgid ""
+"All teams currently collaborate without payment, including freelance teams."
+msgstr "جميع الفرق حاليًا للتعاون بدون مقابل، بما فيها فرق الفريلانـس."
+
+#: templates/community/team_form.html:1
+#| msgid "Publish service"
+msgid "Publish team"
+msgstr "نشر الفريق"
+
+#: templates/community/team_form.html:1
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: templates/errors/403.html:4
+msgid "Access denied"
+msgstr "الوصول غير مسموح"
+
+#: templates/errors/403.html:9
+msgid "This action is not available to you."
+msgstr "هذا الإجراء غير متاح لك."
+
+#: templates/errors/403.html:13
+msgid ""
+"Your account does not have permission for this action. Return to your "
+"workspace to continue."
+msgstr "حسابك لا يملك صلاحية هذا الإجراء. عُد إلى مساحة عملك للمتابعة."
+
+#: templates/errors/404.html:4
+msgid "Page not found"
+msgstr "الصفحة غير موجودة"
+
+#: templates/errors/404.html:9
+msgid "This page is out of reach."
+msgstr "لم نعثر على هذه الصفحة."
+
+#: templates/errors/404.html:13
+msgid ""
+"The link may be incorrect, or the page may no longer be available. You can "
+"continue exploring from here."
+msgstr ""
+"قد يكون الرابط غير صحيح أو لم تعد الصفحة متاحة. يمكنك متابعة التصفح من هنا."
+
+#: templates/errors/500.html:4
+msgid "Something went wrong"
+msgstr "حدث خطأ"
+
+#: templates/errors/500.html:9
+msgid "We could not complete that request."
+msgstr "تعذّر إكمال طلبك."
+
+#: templates/errors/500.html:13
+msgid "Something went wrong on our side. Please try again later."
+msgstr "حدث خطأ في النظام. يرجى المحاولة مجددًا لاحقًا."
+
+#: templates/errors/base.html:49
+msgid "Explore services"
+msgstr "استكشف الخدمات"
+
+#: templates/errors/csrf.html:4
+msgid "Please reopen the form"
+msgstr "يرجى فتح النموذج مجددًا"
+
+#: templates/errors/csrf.html:9
+msgid "Please reopen the form."
+msgstr "افتح النموذج مجددًا."
+
+#: templates/errors/csrf.html:13
+msgid ""
+"We could not verify this submission. Open the form again from the website "
+"and retry. Make sure cookies are enabled."
+msgstr ""
+"تعذّر التحقق من الإرسال. افتح النموذج مجددًا من الموقع وأعد المحاولة، وتأكد "
+"من تفعيل ملفات تعريف الارتباط."
+
+msgid "Your message has been received. Thank you for helping us improve Sila."
+msgstr "وصلتنا رسالتك. شكرًا لمساعدتنا في تحسين صِلة."

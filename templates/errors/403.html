@@ -1,0 +1,24 @@
+{% extends "errors/base.html" %}
+{% load i18n %}
+
+{% block title %}{% translate "Access denied" %} | Sila{% endblock %}
+
+{% block code %}403{% endblock %}
+
+{% block heading %}
+    {% translate "This action is not available to you." %}
+{% endblock %}
+
+{% block description %}
+    {% translate "Your account does not have permission for this action. Return to your workspace to continue." %}
+{% endblock %}
+
+{% block actions %}
+    <a href="{% url 'home' %}" class="button">
+        {% translate "Back to home" %}
+    </a>
+
+    <a href="{% url 'accounts:login' %}" class="button button-secondary">
+        {% translate "Log in" %}
+    </a>
+{% endblock %}

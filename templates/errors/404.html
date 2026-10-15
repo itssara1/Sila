@@ -1,0 +1,14 @@
+{% extends "errors/base.html" %}
+{% load i18n %}
+
+{% block title %}{% translate "Page not found" %} | Sila{% endblock %}
+
+{% block code %}404{% endblock %}
+
+{% block heading %}
+    {% translate "This page is out of reach." %}
+{% endblock %}
+
+{% block description %}
+    {% translate "The link may be incorrect, or the page may no longer be available. You can continue exploring from here." %}
+{% endblock %}

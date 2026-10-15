@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static i18n %}
+
+{% block title %}{% translate "Log in" %} | Sila{% endblock %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/auth.css' %}">
+{% endblock %}
+
+{% block content %}
+    {% include "accounts/auth_panel.html" %}
+{% endblock %}
+
+{% block extra_js %}
+    <script src="{% static 'js/auth.js' %}" defer></script>
+{% endblock %}

@@ -1,0 +1,3 @@
+{% extends 'base.html' %}{% load i18n %}
+{% block content %}<div class="page-head"><div><p class="eyebrow">{% translate 'Your space' %}</p><h1>{% translate 'My profile' %}</h1><p>{% translate 'Let people know who you are and what you would like to learn.' %}</p></div><a class="button secondary" href="{% url 'teaching' %}">{% translate 'Manage teaching skills' %}</a></div>
+<div class="editor card"><form method="post" enctype="multipart/form-data">{% csrf_token %}{% include 'community/fields.html' %}<p class="hint">{% translate 'Your CV is private. Only leaders you choose to share it with can download it.' %}</p><button>{% translate 'Save changes' %}</button></form></div>{% endblock %}

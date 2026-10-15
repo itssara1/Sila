@@ -1,0 +1,19 @@
+{% load static %}
+
+{% if account.profile.avatar %}
+    <img
+        src="{{ account.profile.avatar.url }}"
+        class="{{ avatar_class|default:'avatar' }}"
+        alt=""
+        width="36"
+        height="36"
+    >
+{% else %}
+    <img
+        src="{% static 'images/default-avatar.svg' %}"
+        class="{{ avatar_class|default:'avatar' }}"
+        alt=""
+        width="36"
+        height="36"
+    >
+{% endif %}

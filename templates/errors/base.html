@@ -1,0 +1,60 @@
+{% load static i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_current_language_bidi as LANGUAGE_BIDI %}
+<!DOCTYPE html>
+<html
+    lang="{{ LANGUAGE_CODE }}"
+    dir="{% if LANGUAGE_BIDI %}rtl{% else %}ltr{% endif %}"
+>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}Sila{% endblock %}</title>
+
+    <script src="{% static 'js/theme.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <header class="error-header">
+        <a href="{% url 'home' %}" class="logo">
+            <span class="logo-mark" aria-hidden="true">s.</span>
+            Sila
+        </a>
+    </header>
+
+    <main class="error-page">
+        <div class="error-content">
+            <p class="error-code" aria-hidden="true">
+                {% block code %}{% endblock %}
+            </p>
+
+            <h1>{% block heading %}{% endblock %}</h1>
+
+            <p class="error-description">
+                {% block description %}{% endblock %}
+            </p>
+
+            <div class="error-actions">
+                {% block actions %}
+                    <a href="{% url 'home' %}" class="button">
+                        {% translate "Back to home" %}
+                    </a>
+
+                    <a
+                        href="{% url 'explore' %}"
+                        class="button button-secondary"
+                    >
+                        {% translate "Explore services" %}
+                    </a>
+                {% endblock %}
+            </div>
+        </div>
+    </main>
+
+    <footer class="error-footer">
+        <p>&copy; {% now "Y" %} Sila</p>
+    </footer>
+</body>
+</html>

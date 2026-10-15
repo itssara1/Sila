@@ -1,0 +1,160 @@
+{% load i18n %}
+
+<section
+    class="auth-switch{% if auth_mode == 'signup' %} is-signup{% endif %}"
+    data-auth-switch
+>
+    <div
+        class="auth-switch-form"
+        data-auth-form="login"
+        {% if auth_mode == "signup" %}hidden{% endif %}
+    >
+        <a href="{% url 'home' %}" class="auth-back">
+            {% translate "Back to home" %}
+        </a>
+
+        <div class="auth-heading">
+            <p class="eyebrow">
+                {% translate "Your next collaboration awaits" %}
+            </p>
+
+            <h1 id="login-heading" tabindex="-1">
+                {% translate "Welcome back" %}
+            </h1>
+
+            <p>
+                {% translate "Log in to continue your exchanges and projects." %}
+            </p>
+        </div>
+
+        <form
+            method="post"
+            action="{% url 'accounts:login' %}"
+            class="auth-form"
+            aria-labelledby="login-heading"
+        >
+            {% csrf_token %}
+
+            {% include "accounts/auth_fields.html" with auth_form=login_form %}
+
+            <input type="hidden" name="next" value="{{ next }}">
+
+            <button type="submit" class="auth-submit">
+                {% translate "Log in" %}
+            </button>
+        </form>
+
+        <p class="auth-alternative">
+            {% translate "New to Sila?" %}
+
+            <a
+                href="{% url 'accounts:signup' %}{% if next %}?next={{ next|urlencode }}{% endif %}"
+                data-auth-target="signup"
+            >
+                {% translate "Create account" %}
+            </a>
+        </p>
+    </div>
+
+    <div
+        class="auth-switch-form"
+        data-auth-form="signup"
+        {% if auth_mode != "signup" %}hidden{% endif %}
+    >
+        <a href="{% url 'home' %}" class="auth-back">
+            {% translate "Back to home" %}
+        </a>
+
+        <div class="auth-heading">
+            <p class="eyebrow">
+                {% translate "Start with what you do best" %}
+            </p>
+
+            <h1 id="signup-heading" tabindex="-1">
+                {% translate "Create your account" %}
+            </h1>
+
+            <p>
+                {% translate "Find people to exchange services with and build projects together." %}
+            </p>
+        </div>
+
+        <form
+            method="post"
+            action="{% url 'accounts:signup' %}"
+            class="auth-form"
+            aria-labelledby="signup-heading"
+        >
+            {% csrf_token %}
+
+            {% include "accounts/auth_fields.html" with auth_form=signup_form %}
+
+            <input type="hidden" name="next" value="{{ next }}">
+
+            <button type="submit" class="auth-submit">
+                {% translate "Create account" %}
+            </button>
+        </form>
+
+        <p class="auth-alternative">
+            {% translate "Already have an account?" %}
+
+            <a
+                href="{% url 'accounts:login' %}{% if next %}?next={{ next|urlencode }}{% endif %}"
+                data-auth-target="login"
+            >
+                {% translate "Log in" %}
+            </a>
+        </p>
+    </div>
+
+    <aside class="auth-moving-panel">
+        <div
+            class="auth-panel-content"
+            data-auth-message="login"
+            {% if auth_mode == "signup" %}hidden{% endif %}
+        >
+            <span class="auth-monogram" aria-hidden="true">↔</span>
+
+            <h2>
+                {% translate "Your skills belong in good company." %}
+            </h2>
+
+            <p>
+                {% translate "Exchange a service, meet a teammate, and give your next idea a place to start." %}
+            </p>
+
+            <a
+                href="{% url 'accounts:signup' %}{% if next %}?next={{ next|urlencode }}{% endif %}"
+                class="button auth-panel-button"
+                data-auth-target="signup"
+            >
+                {% translate "Join Sila" %}
+            </a>
+        </div>
+
+        <div
+            class="auth-panel-content"
+            data-auth-message="signup"
+            {% if auth_mode != "signup" %}hidden{% endif %}
+        >
+            <span class="auth-monogram" aria-hidden="true">↔</span>
+
+            <h2>
+                {% translate "Bring your skills. Find your people." %}
+            </h2>
+
+            <p>
+                {% translate "A designer, a developer, a fresh perspective. Your next collaboration starts with a connection." %}
+            </p>
+
+            <a
+                href="{% url 'accounts:login' %}{% if next %}?next={{ next|urlencode }}{% endif %}"
+                class="button auth-panel-button"
+                data-auth-target="login"
+            >
+                {% translate "Log in" %}
+            </a>
+        </div>
+    </aside>
+</section>
